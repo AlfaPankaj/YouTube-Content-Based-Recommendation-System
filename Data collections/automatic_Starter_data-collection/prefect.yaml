@@ -1,0 +1,8 @@
+name: youtube-deployment
+description: Daily YouTube data collection.
+flow_name: youtube-data-pipeline
+work_queue_name: default
+schedule:
+  cron: "31 12 * * *"
+  timezone: Asia/Kolkata
+entrypoint: automatic_Starter_data-collection_script.py:youtube_data_pipeline
