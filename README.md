@@ -85,8 +85,7 @@ Evaluation and Monitoring: The model's performance is evaluated offline, and the
 Follow these steps to set up the project on your local machine.
 
 1. Clone the Repository
-git clone <your-repository-url>
-cd <your-repository-name>
+git clone <gh repo clone AlfaPankaj/YouTube-Content-Based-Recommendation-System>
 
 2. Create a Python Virtual Environment
 It is highly recommended to use a virtual environment.
